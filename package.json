@@ -1,0 +1,21 @@
+{
+  "name": "raspberry-pi-camera-plugin-ds18b20",
+  "version": "0.0.1",
+  "description": "plugin to scan ds18b20 sensors and pass to camera via IPC, works with other IPC capable apps",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ds18b20",
+    "raspberry-pi-camera"
+  ],
+  "author": "Nathan Baker <pcnate@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ds18b20-raspi": "^0.3.2"
+  },
+  "devDependencies": {
+    "npm-nomaster-commits": "^1.0.5"
+  }
+}
